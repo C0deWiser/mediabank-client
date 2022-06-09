@@ -1,0 +1,23 @@
+{
+    "name": "codewiser/mediabank-client",
+    "description": "Mediabank import client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codewiser\\Mediabank\\Client\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Михаил Погребников",
+            "email": "pm@101media.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "ext-soap": "*",
+        "nesbot/carbon": "^2.58",
+        "psr/log": "^3.0"
+    }
+}
