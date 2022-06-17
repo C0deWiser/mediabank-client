@@ -5,8 +5,8 @@ namespace Codewiser\Mediabank\Client\Models;
 
 
 /**
- * @property-read integer $id
- * @property-read integer $status
+ * @property integer $id
+ * @property integer $status
  */
 interface Update
 {

@@ -5,10 +5,10 @@ namespace Codewiser\Mediabank\Client\Models;
 
 
 /**
- * @property-read integer $id
- * @property-read integer $zenit_id
- * @property-read string $type
- * @property-read string|null $name
+ * @property integer $id
+ * @property integer $zenit_id
+ * @property string $type
+ * @property string|null $name
  */
 interface Tag
 {

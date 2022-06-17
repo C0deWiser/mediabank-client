@@ -5,8 +5,8 @@ namespace Codewiser\Mediabank\Client\Models;
 
 
 /**
- * @property-read string|null $name
- * @property-read string $contact
+ * @property string|null $name
+ * @property string $contact
  */
 interface Author
 {

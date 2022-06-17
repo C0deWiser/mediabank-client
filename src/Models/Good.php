@@ -4,9 +4,9 @@
 namespace Codewiser\Mediabank\Client\Models;
 
 /**
- * @property-read string $stockNumber
- * @property-read string $view
- * @property-read string $color
+ * @property string $stockNumber
+ * @property string $view
+ * @property string $color
  */
 interface Good
 {
